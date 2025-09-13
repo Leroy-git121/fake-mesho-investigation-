@@ -76,6 +76,33 @@ Hashes for QR code (tested in controlled environment, **non-malicious**):
 
 ---
 
+## Investigation Methodology
+
+While scrolling through social media, I came across an advertisement promoting extremely cheap devices—such as a Galaxy Fold for just ₹500—which immediately raised suspicion. Upon visiting the site, I noticed several red flags, including an insecure payment gateway.
+
+To further investigate, I performed a series of DNS queries:
+
+- `nslookup xoofi.shop`
+- `nslookup -type=NS xoofi.shop`
+- Queries against various root DNS servers like `shop.a.root-servers.net` and `xoofi.shop b.gmoregistry.net`, choosing the root DNS server geographically closest to me for better accuracy. 
+
+From these queries, I identified two prominent IP addresses:  
+- **37.209.194.4**  
+- **82.25.120.19**
+
+I then used `whois` and `nslookup` on these IPs to gather information about their registrants and hosting providers.  
+
+Next, I took screenshots of the site and downloaded the QR code the site urged users to scan. This QR code was analyzed in a sealed, safe environment to check for any embedded malicious code or payloads.
+
+I generated IOC hashes (MD5, SHA1, SHA256) for the QR file, created a detailed forensic report, and contacted the abuse contacts found in the WHOIS records for both the domain and IP ranges.
+
+After reporting, the fraudulent site was shut down by the hosting providers within approximately 10 minutes.
+
+---
+
+_This investigative approach combining OSINT with forensic analysis and rapid escalation is documented throughout this repository._
+
+
 ## 📌 Summary
 
 - The domain **xoofi.shop** is **fraudulently impersonating Meesho** with infrastructure in both India and Indonesia.  
