@@ -104,7 +104,7 @@ _This investigative approach combining OSINT with forensic analysis and rapid es
 
 # Evidence Overview
 
-All crucial visual and technical evidence collected during the **Fake Meesho Scam Investigation** can be found in the [`evidence`](./evidence) folder.
+All crucial visual and technical evidence collected during the **Fake Meesho Scam Investigation** can be found in the [`evidence`](./Evidence) folder.
 
 ---
 
