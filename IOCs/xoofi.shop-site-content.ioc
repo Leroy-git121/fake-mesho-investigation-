@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="848c515e-7ed5-4485-960d-3a545b4f5eb2" last-modified="2025-09-13T00:25:00" xmlns="http://schemas.mandiant.com/2010/ioc">
+  <short_description>Xoofi.shop</short_description>
+  <description>All IPs, DNS records, and extracted site-content indicators from the Xoofi.shop site before it went down. Site has since been taken offline. DNS registry ID: DO14790580-GMO.</description>
+  <authored_by>Leroy Anand</authored_by>
+  <authored_date>2025-09-12T23:51:42</authored_date>
+  <links />
+  <definition>
+    <Indicator operator="OR" id="57c51e87-ee63-4a4d-aeb1-4b9f55435872">
+
+      <IndicatorItem id="af7c51f2-1245-4b2a-83c3-2ea6a1a88991" condition="contains">
+        <Context document="Url" search="UrlHistoryItem/Url" type="mir" />
+        <Content type="string">/cart</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c9e41276-88e3-4b9a-8b84-7a72c8cbfd42" condition="contains">
+        <Context document="Url" search="UrlHistoryItem/Url" type="mir" />
+        <Content type="string">/orders.php</Content>
+      </IndicatorItem>
+      <IndicatorItem id="62e0f6d1-3841-43fc-8a2e-8337ec392d74" condition="contains">
+        <Context document="Url" search="UrlHistoryItem/Url" type="mir" />
+        <Content type="string">home/product?page=</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d2fbe927-2e53-469f-81ef-f1a628cd13fd" condition="contains">
+        <Context document="Url" search="UrlHistoryItem/Url" type="mir" />
+        <Content type="string">connect.facebook.net</Content>
+      </IndicatorItem>
+      <IndicatorItem id="24d5c8d3-5a9a-4825-9b47-60f8d0f9ffef" condition="contains">
+        <Context document="Url" search="UrlHistoryItem/Url" type="mir" />
+        <Content type="string">googletagmanager.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="58c17748-3c91-4a8a-8f61-bb421a851dd6" condition="contains">
+        <Context document="Url" search="UrlHistoryItem/Url" type="mir" />
+        <Content type="string">cdnjs.cloudflare.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4c9cbef2-c87e-4858-96f5-2b784787db0f" condition="contains">
+        <Context document="Url" search="UrlHistoryItem/Url" type="mir" />
+        <Content type="string">xoofi.shop/assets/website/</Content>
+      </IndicatorItem>
+
+
+    </Indicator>
+  </definition>
+</ioc>

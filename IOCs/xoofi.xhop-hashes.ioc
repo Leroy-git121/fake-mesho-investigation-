@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="848c515e-7ed5-4485-960d-3a545b4f5eb2" last-modified="2025-09-13T00:40:11" xmlns="http://schemas.mandiant.com/2010/ioc">
+  <short_description>Xoofi.shop full</short_description>
+  <description>All IPs, DNS records, and extracted site-content indicators from the Xoofi.shop site before it went down. Site has since been taken offline. DNS registry ID: DO14790580-GMO. Also Includes QR code Hashes below</description>
+  <authored_by>Leroy Anand</authored_by>
+  <authored_date>2025-09-12T23:51:42</authored_date>
+  <links />
+  <definition>
+    <Indicator operator="OR" id="57c51e87-ee63-4a4d-aeb1-4b9f55435872">
+      <IndicatorItem id="file-md5-4aa5e4ad-fd97-444a-cba1-9f53b1180da9" condition="is">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
+        <Content type="md5">4aa5e4adfd97444acba19f53b1180da9</Content>
+      </IndicatorItem>
+      <IndicatorItem id="file-sha1-35f872c3-653d-1002-a9e3-9eabdff881fc" condition="is">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir" />
+        <Content type="sha1">35f872c3653d1002a9e39eabdff881fc7beca03</Content>
+      </IndicatorItem>
+      <IndicatorItem id="file-sha256-49be5659-d853-8379-7f1f-f4017e39c916" condition="is">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir" />
+        <Content type="sha256">49be5659d85383797f1ff4017e39c916111d63d2c11129f6c79b68c9feaffefe</Content>
+      </IndicatorItem>
+    </Indicator>
+  </definition>
+</ioc>
