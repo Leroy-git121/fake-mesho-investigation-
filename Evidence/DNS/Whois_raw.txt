@@ -1,0 +1,150 @@
+inetnum:        39.192.0.0 - 39.255.255.255
+netname:        TELKOMSELNET-ID
+descr:          Gd. Wisma Mulia Lt.M-19
+country:        ID
+org:            ORG-PI1-AP
+admin-c:        TL560-ID
+tech-c:         TL560-ID
+abuse-c:        AT1538-AP
+status:         ALLOCATED PORTABLE
+mnt-by:         APNIC-HM
+mnt-lower:      MAINT-TELKOMSELNET-ID
+mnt-routes:     MAINT-TELKOMSELNET-ID
+mnt-routes:     MAINT-ID-TELKOMSEL
+mnt-irt:        IRT-TELKOMSELNET-ID
+last-modified:  2021-01-20T22:24:55Z
+source:         APNIC
+
+irt:            IRT-TELKOMSELNET-ID
+address:        Gd. Wisma Mulia Lt.M-19
+e-mail:         hostmaster@telkomsel.co.id
+abuse-mailbox:  hostmaster@telkomsel.co.id
+admin-c:        TL560-ID
+tech-c:         TL560-ID
+auth:           # Filtered
+remarks:        hostmaster@telkomsel.co.id was validated on 2025-05-22
+mnt-by:         MAINT-TELKOMSELNET-ID
+last-modified:  2025-05-22T01:55:11Z
+source:         APNIC
+
+organisation:   ORG-PI1-AP
+org-name:       PT.TELKOMSEL Indonesia
+org-type:       LIR
+country:        ID
+address:        Telkom Landmark Tower
+address:        Tower 1, 2nd - 23rd Floor
+address:        Jl.Jendral Gatot Subroto kav.52
+phone:          +62-21-5240811
+fax-no:         +62-21-5240811
+e-mail:         Hostmaster@telkomsel.co.id
+mnt-ref:        APNIC-HM
+mnt-by:         APNIC-HM
+last-modified:  2023-09-05T02:15:47Z
+source:         APNIC
+
+role:           ABUSE TELKOMSELNETID
+country:        ZZ
+address:        Gd. Wisma Mulia Lt.M-19
+phone:          +000000000
+e-mail:         hostmaster@telkomsel.co.id
+admin-c:        TL560-ID
+tech-c:         TL560-ID
+nic-hdl:        AT1538-AP
+remarks:        Generated from irt object IRT-TELKOMSELNET-ID
+remarks:        hostmaster@telkomsel.co.id was validated on 2025-05-22
+abuse-mailbox:  hostmaster@telkomsel.co.id
+mnt-by:         APNIC-ABUSE
+last-modified:  2025-05-22T01:55:40Z
+source:         APNIC
+
+role:           TELKOMSEL NET
+address:        Gd. Wisma Mulia Lt.M-19
+country:        ID
+phone:          +62-21-5240811
+e-mail:         hostmaster@telkomsel.co.id
+admin-c:        TL560-ID
+tech-c:         TL560-ID
+nic-hdl:        TL560-ID
+mnt-by:         MAINT-TELKOMSELNET-ID
+last-modified:  2011-04-15T02:03:02Z
+source:         APNIC
+
+% Information related to '39.209.0.0/16AS23693'
+
+route:          39.209.0.0/16
+descr:          Route Object of PT Telekomunikasi Selular Indonesia
+descr:          ISP
+descr:          Jakarta
+origin:         AS23693
+country:        ID
+mnt-lower:      MAINT-TELKOMSELNET-ID
+mnt-routes:     MAINT-TELKOMSELNET-ID
+mnt-by:         MAINT-TELKOMSELNET-ID
+last-modified:  2011-05-03T06:41:10Z
+source:         APNIC
+
+% Information related to '39.209.0.0/16AS23693'
+
+route:          39.209.0.0/16
+descr:          Route Object of PT Telekomunikasi Selular Indonesia
+descr:          ISP
+descr:          Jakarta
+origin:         AS23693
+country:        ID
+mnt-lower:      MAINT-TELKOMSELNET-ID
+mnt-routes:     MAINT-TELKOMSELNET-ID
+mnt-by:         MAINT-TELKOMSELNET-ID
+last-modified:  2011-05-03T06:41:10Z
+source:         IDNIC
+
+and ip 82.25.120.19: 
+inetnum:        82.25.120.0 - 82.25.127.255
+netname:        HOSTINGER-HOSTING
+country:        IN
+geoloc:         19.076090 72.877426
+geofeed:        https://raw.githubusercontent.com/hostinger/geofeed/main/geofeed.csv
+org:            ORG-HIL18-RIPE
+admin-c:        HIL21-RIPE
+tech-c:         HIL21-RIPE
+abuse-c:        HIL21-RIPE
+status:         ASSIGNED PA
+remarks:        End User Organization
+mnt-by:         netutils-mnt
+created:        2025-02-04T13:07:37Z
+last-modified:  2025-02-21T12:27:54Z
+source:         RIPE
+
+organisation:   ORG-HIL18-RIPE
+org-name:       Private Customer
+org-type:       OTHER
+remarks:        End User Organization
+address:        Private Residence
+country:        CY
+abuse-c:        HIL21-RIPE
+mnt-ref:        IPXO-MNT
+mnt-ref:        netutils-mnt
+mnt-by:         IPXO-MNT
+mnt-by:         netutils-mnt
+created:        2023-06-01T11:15:33Z
+last-modified:  2024-12-05T09:21:42Z
+source:         RIPE # Filtered
+
+role:           Private Customer
+address:        Private Residence
+nic-hdl:        HIL21-RIPE
+remarks:        End User Organization
+abuse-mailbox:  report@abuseradar.com
+mnt-by:         netutils-mnt
+created:        2023-06-01T11:15:33Z
+last-modified:  2024-12-05T09:41:57Z
+source:         RIPE # Filtered
+
+% Information related to '82.25.120.0/21AS47583'
+
+route:          82.25.120.0/21
+origin:         AS47583
+descr:          HOSTINGER IN
+mnt-by:         netutils-mnt
+created:        2025-02-04T13:07:37Z
+last-modified:  2025-02-21T12:28:02Z
+source:         RIPE
