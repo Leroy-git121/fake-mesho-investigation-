@@ -1,0 +1,23 @@
+Domain Name: XOOFI.SHOP
+Registry Domain ID: DO14790580-GMO
+Registrar WHOIS Server: whois.hostinger.com
+Registrar URL: https://www.hostinger.com/
+Updated Date: 2025-09-01T19:55:19.0Z
+Creation Date: 2025-09-01T19:55:10.0Z
+Registry Expiry Date: 2026-09-01T23:59:59.0Z
+Registrar: HOSTINGER operations, UAB
+Registrar IANA ID: 1636
+Registrar Abuse Contact Email: abuse@hostinger.com
+Registrar Abuse Contact Phone:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: addPeriod https://icann.org/epp#addPeriod
+Registrant State/Province: MA
+Registrant Country: US
+Registrant Email:
+Admin Email:
+Tech Email:
+Name Server: NS2.DNS-PARKING.COM
+Name Server: NS1.DNS-PARKING.COM
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2025-09-06T11:12:24.0Z <<<
