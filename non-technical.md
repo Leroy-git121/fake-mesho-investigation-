@@ -28,6 +28,23 @@ This is a quick summary of a fraudulent website impersonating **Meesho**. For fu
   - **SHA256:** 49be5659d85383797f1ff4017e39c916111d63d2c11129f6c79b68c9feaffefe  
 
 ---
+# Evidence Overview
+
+All crucial visual and technical evidence collected during the **Fake Meesho Scam Investigation** can be found in the [`evidence`](./evidence) folder.
+
+---
+
+## Included in the Evidence Folder
+
+- **Screenshots** of the fraudulent website, social media lures, and other suspicious activity.  
+- **QR Codes** downloaded from the scam site (tested safely in a controlled environment).  
+- **Logs and Captures** from DNS and WHOIS queries.  
+- **Supporting Files** that document the investigation steps and IOCs.
+
+---
+
+> 📌 Note: The evidence folder contains **all key files needed to validate this investigation** and is intended for forensic review, legal reporting, and brand protection purposes.
+
 
 ## ✅ Outcome
 
